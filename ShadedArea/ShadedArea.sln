@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShadedArea", "ShadedArea\ShadedArea.csproj", "{343258FC-CA35-4D32-A5D6-373F29A0A8D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343258FC-CA35-4D32-A5D6-373F29A0A8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343258FC-CA35-4D32-A5D6-373F29A0A8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343258FC-CA35-4D32-A5D6-373F29A0A8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343258FC-CA35-4D32-A5D6-373F29A0A8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37037E42-4C93-4B84-81BF-E5B59BB5E835}
+	EndGlobalSection
+EndGlobal
