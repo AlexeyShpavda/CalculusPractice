@@ -5,3 +5,4 @@ Applications In C#
 + Shaded Area
 + Function Value Calculating On The Interval
 + Small Questionnaire
++ Using Try / Catch

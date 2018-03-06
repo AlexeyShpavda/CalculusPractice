@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingTryCatch", "UsingTryCatch\UsingTryCatch.csproj", "{CED425E7-B0D9-41A2-83F1-4091813B87C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED425E7-B0D9-41A2-83F1-4091813B87C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED425E7-B0D9-41A2-83F1-4091813B87C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED425E7-B0D9-41A2-83F1-4091813B87C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED425E7-B0D9-41A2-83F1-4091813B87C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0400D857-E439-44CF-8361-F18658DE1EAD}
+	EndGlobalSection
+EndGlobal
