@@ -6,3 +6,4 @@ Applications In C#
 + Function Value Calculating On The Interval
 + Small Questionnaire
 + Using Try / Catch
++ Taylor Series
