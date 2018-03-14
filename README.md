@@ -7,3 +7,4 @@ Applications In C#
 + Small Questionnaire
 + Using Try / Catch
 + Taylor Series
++ Taylor Series / Special X
