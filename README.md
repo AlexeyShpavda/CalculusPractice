@@ -8,3 +8,4 @@ Applications In C#
 + Using Try / Catch
 + Taylor Series
 + Taylor Series / Special X
++ Inheritance
