@@ -10,3 +10,4 @@ Applications In C#
 + Taylor Series / Special X
 + Inheritance
 + Work With Array
++ Work With Matrix
