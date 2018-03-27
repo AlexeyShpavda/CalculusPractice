@@ -9,3 +9,4 @@ Applications In C#
 + Taylor Series
 + Taylor Series / Special X
 + Inheritance
++ Work With Array
