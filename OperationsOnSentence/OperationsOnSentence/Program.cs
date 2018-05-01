@@ -12,10 +12,13 @@ namespace OperationsOnSentence
             Console.WriteLine("Enter sentence:");
             initialSentence = Convert.ToString(Console.ReadLine());
 
-            string newSentence = Sentence.swapFirstAndLastWord(initialSentence);
-
+            // T1
             Console.WriteLine(initialSentence);
-            Console.WriteLine(newSentence);
+            Console.WriteLine(Sentence.reverseSentence(initialSentence));
+
+            // T2
+            Console.WriteLine(initialSentence);
+            Console.WriteLine(Sentence.swapFirstAndLastWord(initialSentence));
 
             Console.ReadKey();
         }

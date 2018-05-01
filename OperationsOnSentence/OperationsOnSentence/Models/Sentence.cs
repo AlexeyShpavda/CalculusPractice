@@ -8,6 +8,19 @@ namespace OperationsOnSentence.Models
 {
     class Sentence
     {
+        public static string reverseSentence(string sentence)
+        {
+            string initialSentence = sentence;
+
+            string newSentence = String.Empty;
+            for (var symbolIndex = sentence.Length - 1; symbolIndex >= 0; symbolIndex--)
+            {
+                newSentence += sentence[symbolIndex];
+            }
+
+            return newSentence;
+        }
+
         public static string swapFirstAndLastWord(string sentence)
         {
             string initialSentence = sentence;
