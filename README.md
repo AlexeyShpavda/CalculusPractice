@@ -13,5 +13,6 @@ Applications In C#
 + Work With Matrix
 + Reverse Sentence
 + Operations On Sentence
->> Reverse Sentence
->> Swapping first and last word
+  + Reverse Sentence
+  + Swapping First And Last Word
+  + Gluing Second And Third Words In Sentence

@@ -41,5 +41,27 @@ namespace OperationsOnSentence.Models
 
             return newSentence;
         }
+
+        public static string glueSecondAndThirdWordsInSentence(string sentence)
+        {
+            string initialSentence = sentence;
+
+            string[] words;
+            words = initialSentence.Split(' ');
+
+            string newSentence = String.Empty;
+            int wordCounter = 1;
+            foreach (var word in words)
+            {
+                newSentence += word;
+                if (wordCounter != 2)
+                {
+                    newSentence += " ";
+                }
+                wordCounter++;
+            }
+
+            return newSentence;
+        }
     }
 }
