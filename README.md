@@ -15,4 +15,5 @@ Applications In C#
 + Operations On Sentence
   + Reverse Sentence
   + Swapping First And Last Word
-  + Gluing Second And Third Words In Sentence
+  + Gluing Words In Sentence
+  + Reverse Word From Sentence

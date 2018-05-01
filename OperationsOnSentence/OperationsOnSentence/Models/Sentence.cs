@@ -42,9 +42,11 @@ namespace OperationsOnSentence.Models
             return newSentence;
         }
 
-        public static string glueSecondAndThirdWordsInSentence(string sentence)
+        public static string glueWordsInSentence(string sentence, int indexFrom, int indexTo)
         {
             string initialSentence = sentence;
+            int startIndex = indexFrom;
+            int finishIndex = indexTo;
 
             string[] words;
             words = initialSentence.Split(' ');
@@ -54,7 +56,7 @@ namespace OperationsOnSentence.Models
             foreach (var word in words)
             {
                 newSentence += word;
-                if (wordCounter != 2)
+                if (wordCounter < startIndex || wordCounter >= finishIndex)
                 {
                     newSentence += " ";
                 }
@@ -62,6 +64,23 @@ namespace OperationsOnSentence.Models
             }
 
             return newSentence;
+        }
+
+        public static string reverseWord(string sentence, int index)
+        {
+            string initialSentence = sentence;
+            int wordIndex = index;
+
+            string[] words;
+            words = initialSentence.Split(' ');
+
+            string word = String.Empty;
+            for (var symbolIndex = words[index].Length - 1; symbolIndex >= 0; symbolIndex--)
+            {
+                word += words[index][symbolIndex];
+            }
+
+            return word;
         }
     }
 }

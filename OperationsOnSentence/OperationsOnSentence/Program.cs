@@ -26,7 +26,12 @@ namespace OperationsOnSentence
 
             // T3
             Console.WriteLine(initialSentence);
-            Console.WriteLine(Sentence.glueSecondAndThirdWordsInSentence(initialSentence));
+            Console.WriteLine(Sentence.glueWordsInSentence(initialSentence, 2, 3));
+            Console.WriteLine(line);
+
+            // T4
+            Console.WriteLine(initialSentence);
+            Console.WriteLine(Sentence.reverseWord(initialSentence, 2));
             Console.WriteLine(line);
 
             Console.ReadKey();
