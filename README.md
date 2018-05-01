@@ -17,3 +17,4 @@ Applications In C#
   + Swapping First And Last Word
   + Gluing Words In Sentence
   + Reverse Word From Sentence
+  + Cut Out First 2 Letters In Word From Sentence

@@ -34,6 +34,12 @@ namespace OperationsOnSentence
             Console.WriteLine(Sentence.reverseWord(initialSentence, 2));
             Console.WriteLine(line);
 
+            // T5
+            Console.WriteLine(initialSentence);
+            Console.WriteLine(Sentence.cutOutFirstTwoLetters(initialSentence, 0));
+            Console.WriteLine(line);
+
+
             Console.ReadKey();
         }
     }

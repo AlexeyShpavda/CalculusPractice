@@ -75,9 +75,26 @@ namespace OperationsOnSentence.Models
             words = initialSentence.Split(' ');
 
             string word = String.Empty;
-            for (var symbolIndex = words[index].Length - 1; symbolIndex >= 0; symbolIndex--)
+            for (var symbolIndex = words[wordIndex].Length - 1; symbolIndex >= 0; symbolIndex--)
             {
-                word += words[index][symbolIndex];
+                word += words[wordIndex][symbolIndex];
+            }
+
+            return word;
+        }
+
+        public static string cutOutFirstTwoLetters(string sentence, int index)
+        {
+            string initialSentence = sentence;
+            int wordIndex = index;
+
+            string[] words;
+            words = initialSentence.Split(' ');
+
+            string word = String.Empty;
+            for (var symbolIndex = 2; symbolIndex < words[wordIndex].Length; symbolIndex++)
+            {
+                word += words[wordIndex][symbolIndex];
             }
 
             return word;
