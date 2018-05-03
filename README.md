@@ -18,3 +18,4 @@ Applications In C#
   + Gluing Words In Sentence
   + Reverse Word From Sentence
   + Cut Out First 2 Letters In Word From Sentence
+  + Compression Of Ordered Data

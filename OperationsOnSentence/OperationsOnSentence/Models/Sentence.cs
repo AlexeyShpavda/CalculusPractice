@@ -99,5 +99,29 @@ namespace OperationsOnSentence.Models
 
             return word;
         }
+
+        public static string compressionOfOrderedData(string sentence)
+        {
+            string initialSentence = sentence;
+
+            string newSentence = String.Empty;
+            int symbolIndex = 0;
+            int counter = 0;
+            while(symbolIndex < initialSentence.Length) 
+            {
+                newSentence += initialSentence[symbolIndex];
+                char symbol = initialSentence[symbolIndex];
+
+                do
+                {
+                    counter++;
+                    symbolIndex++;
+                } while (symbolIndex < initialSentence.Length && symbol == initialSentence[symbolIndex]);
+                newSentence += Convert.ToString(counter);
+                counter = 0;
+            }
+
+            return newSentence;
+        }
     }
 }
